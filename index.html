@@ -4,9 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-  /* W3.CSS 4.04 Apr 2017 by Jan Egil and Borge Refsnes */
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
-/* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}
 audio,canvas,progress,video{display:inline-block}progress{vertical-align:baseline}
@@ -77,13 +75,13 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-cell-row:before,.w3-cell-row:after,.w3-clear:after,.w3-clear:before,.w3-bar:before,.w3-bar:after{content:"";display:table;clear:both}
 .w3-col,.w3-half,.w3-third,.w3-twothird,.w3-threequarter,.w3-quarter{float:left;width:100%}
 .w3-col.s1{width:8.33333%}.w3-col.s2{width:16.66666%}.w3-col.s3{width:24.99999%}.w3-col.s4{width:33.33333%}
-.w3-col.s5{width:41.66666%}.w3-col.s6{width:49.99999%}.w3-col.s7{width:58.33333%}.w3-col.s8{width:66.66666%}
+.w3-col.s5{width:41.66666%}.w3-col.s6{width:49.99999%}.w3-col.s7{width:58.33333%}.w3-col.s8{width:100%}
 .w3-col.s9{width:74.99999%}.w3-col.s10{width:83.33333%}.w3-col.s11{width:91.66666%}.w3-col.s12{width:99.99999%}
 @media (min-width:601px){.w3-col.m1{width:8.33333%}.w3-col.m2{width:16.66666%}.w3-col.m3,.w3-quarter{width:24.99999%}.w3-col.m4,.w3-third{width:33.33333%}
-.w3-col.m5{width:41.66666%}.w3-col.m6,.w3-half{width:49.99999%}.w3-col.m7{width:58.33333%}.w3-col.m8,.w3-twothird{width:66.66666%}
+.w3-col.m5{width:41.66666%}.w3-col.m6,.w3-half{width:49.99999%}.w3-col.m7{width:58.33333%}.w3-col.m8,.w3-twothird{width:100%}
 .w3-col.m9,.w3-threequarter{width:74.99999%}.w3-col.m10{width:83.33333%}.w3-col.m11{width:91.66666%}.w3-col.m12{width:99.99999%}}
 @media (min-width:993px){.w3-col.l1{width:8.33333%}.w3-col.l2{width:16.66666%}.w3-col.l3{width:24.99999%}.w3-col.l4{width:33.33333%}
-.w3-col.l5{width:41.66666%}.w3-col.l6{width:49.99999%}.w3-col.l7{width:58.33333%}.w3-col.l8{width:66.66666%}
+.w3-col.l5{width:41.66666%}.w3-col.l6{width:49.99999%}.w3-col.l7{width:58.33333%}.w3-col.l8{width:100%}
 .w3-col.l9{width:74.99999%}.w3-col.l10{width:83.33333%}.w3-col.l11{width:91.66666%}.w3-col.l12{width:99.99999%}}
 .w3-content{max-width:980px;margin:auto}.w3-rest{overflow:hidden}
 .w3-cell-row{display:table;width:100%}.w3-cell{display:table-cell}
@@ -145,7 +143,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-padding-small{padding:4px 8px!important}.w3-padding{padding:8px 16px!important}.w3-padding-large{padding:12px 24px!important}
 .w3-padding-16{padding-top:16px!important;padding-bottom:16px!important}.w3-padding-24{padding-top:24px!important;padding-bottom:24px!important}
 .w3-padding-32{padding-top:32px!important;padding-bottom:32px!important}.w3-padding-48{padding-top:48px!important;padding-bottom:48px!important}
-.w3-padding-64{padding-top:64px!important;padding-bottom:64px!important}
+.w3-padding-64{padding-bottom:64px!important}
 .w3-left{float:left!important}.w3-right{float:right!important}
 .w3-button:hover{color:#000!important;background-color:#ccc!important}
 .w3-transparent,.w3-hover-none:hover{background-color:transparent!important}
@@ -222,7 +220,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   <div class="w3-bar w3-red w3-card-2 w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Ana Sayfa</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">#</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Hakkımızda</a>
 
   </div>
 
@@ -265,6 +263,7 @@ $("img").removeAttr("height");
 $("img").css("max-width","100%");
 });
   </script>
+  <br />
 <img border="3" height="400" src="https://3.bp.blogspot.com/-a_p0B6b9KxE/WCy84ZZiW6I/AAAAAAAAAA8/ULGBZ42o2Mw8XcOAEj_DBmR-lozaupvvQCLcB/s1600/Hotmail-Oturum-Ac-Org.jpg" title="hotmail kaydol" alt="msn kaydol" width="490" />
 
 <img border="3" alt="hotmail" title="hotmail oturum aç" height="400" src="https://3.bp.blogspot.com/-IT8q0wU-HDo/WC2B0sS6kbI/AAAAAAAAABc/Ciil6BavzLI3jTsOmN_jx2-JPrElSnQBQCLcB/s1600/Hotmail-Oturum-Ac-Org2.jpg" width="490" />
